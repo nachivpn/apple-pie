@@ -28,7 +28,7 @@ int main()
 	for(i=0;i<MAX;i++)
 		scanf("%d",&array[i]);
 
-	/* The two variables: head -> earliest 0 in the array	tail -> last 0 in the array*/
+	/* head -> the position after the last odd number encountered*/
 	int head=0;
 
 	/*	Computation	*/
